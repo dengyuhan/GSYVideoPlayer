@@ -32,7 +32,7 @@ dependencies {
     implementation viewDependencies.transitionseverywhere
     implementation dataDependencies.videocache
     //compile project(':gsyvideoplayer-androidvideocache')
-    implementation androidDependencies.appcompat_v7
+    provided androidDependencies.appcompat_v7
 }
 
 apply from: './bintray.gradle'
