@@ -29,8 +29,8 @@ dependencies {
     def dataDependencies = rootProject.ext.dataDependencies
     provided viewDependencies.ijkplayer_java
     provided viewDependencies.ijkplayer_exo
-    implementation viewDependencies.transitionseverywhere
-    implementation dataDependencies.videocache
+    provided viewDependencies.transitionseverywhere
+    provided dataDependencies.videocache
     //compile project(':gsyvideoplayer-androidvideocache')
     provided androidDependencies.appcompat_v7
 }
