@@ -27,8 +27,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     def viewDependencies = rootProject.ext.viewDependencies
     def dataDependencies = rootProject.ext.dataDependencies
-    implementation viewDependencies.ijkplayer_java
-    implementation viewDependencies.ijkplayer_exo
+    provided viewDependencies.ijkplayer_java
+    provided viewDependencies.ijkplayer_exo
     implementation viewDependencies.transitionseverywhere
     implementation dataDependencies.videocache
     //compile project(':gsyvideoplayer-androidvideocache')
