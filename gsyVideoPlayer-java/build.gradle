@@ -24,7 +24,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     def viewDependencies = rootProject.ext.viewDependencies
     def dataDependencies = rootProject.ext.dataDependencies
     provided viewDependencies.ijkplayer_java
